@@ -1,0 +1,3 @@
+/*
+A file is a pattern of data which is stored in our disk 
+*/
