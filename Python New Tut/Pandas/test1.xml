@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <BookId>isbn2022</BookId>
+    <Author>('ross', 'mark')</Author>
+    <Genre>Computer</Genre>
+    <price>23.56</price>
+    <PublishDate>2014-22-01</PublishDate>
+  </row>
+  <row>
+    <BookId>isbn2023</BookId>
+    <Author>('Bracket', 'Barbara')</Author>
+    <Genre>Computer</Genre>
+    <price>35.59</price>
+    <PublishDate>2014-12-16</PublishDate>
+  </row>
+</data>
