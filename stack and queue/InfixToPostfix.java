@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class InfixToPostfix {
     public static class node {
         public char data;
@@ -116,47 +118,59 @@ public class InfixToPostfix {
     }
 
     public static boolean isOperator(char o){
-        if(o == '+' || o== '-' || o =='*' || o =='/'){
+        if(o == '+' || o== '-' || o =='*' || o =='/' || o == '(' || o == ')'){
             return true;
         }
         return false;
     }
 
 
-    public static String infix_To_Postfix(StackL s, String expression){
-        String postfix = "";
-        int i = 0;
-        // int j = 0;
-        while(i < expression.length()){
-            if(!isOperator(expression.charAt(i))){
-                postfix += expression.charAt(i);
-                i++;
-            }
-            else{
-                if(s.isEmpty()){
-                    s.push(expression.charAt(i));
-                    // System.out.println(expression.charAt(i));
-                    // System.out.println(s.stackTop());
+     public static String infixToPostfix(Stack stac, String expression){
+            String postfix = "";
+            int i = 0;
+            while (i < expression.length()){
+                char c = expression.charAt(i);
+                if (c == ' '){
+                    continue;
+                }
+                if (!isExpression(c)){
+                    postfix += c;
                     i++;
                 }
-                else if (precedence(expression.charAt(i)) > precedence(s.stackTop())){
-                    s.push(expression.charAt(i));
-                    i++;
-                }
-
                 else{
-                    // System.out.println(s.pop());
-                    postfix+= s.pop();
+                    if(c == '('){
+                        stac.push(c);
+                        i++;
+                    }
+                    else if (stac.isEmpty()){
+                        stac.push(c);
+                        i++;
+                    }
+                    else if (precedence(c) > precedence(stac.stackTop())){
+                        stac.push(c);
+                        i++;
+                    }
+                    else if(c == ')'){
+                        while(!stac.isEmpty() && stac.stackTop()!='('){
+                            postfix+=stac.pop();
+                        if (stac.stackTop() == '('){
+                            stac.pop();
+                        }
+
+                        i++;
+                    }
                 }
+                    else{
+                        postfix += stac.pop();
+                    }
+                    }
+                }
+            while (!stac.isEmpty()){
+                postfix += stac.pop();
             }
 
+            return postfix;
         }
-        while(!s.isEmpty()){
-            postfix += s.pop();
-        }
-        // s.printStack();
-        return postfix;
-    }
 
     public static void main(String[] args) {
         StackL ss = new StackL();

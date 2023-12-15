@@ -55,6 +55,8 @@ public class StackUsingLinkedList {
             }
         }
 
+
+
         public void peek(int key){
             node temp = head;
             while(key > 0 && temp != null){
