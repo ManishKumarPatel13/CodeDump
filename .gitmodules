@@ -1,0 +1,3 @@
+[submodule "Streamlit-ChatBot"]
+	path = Streamlit-ChatBot
+	url = https://github.com/ManishKumarPatel13/Streamlit-ChatBot.git
