@@ -1,5 +1,3 @@
-package OOPS;
-
 // class - template 
 // object - Instance of class
 

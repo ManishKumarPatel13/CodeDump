@@ -1,4 +1,4 @@
-package multithreadingg.java;
+
 
 public class Introoo {
 

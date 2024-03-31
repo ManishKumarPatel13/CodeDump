@@ -1,5 +1,3 @@
-package OOPS;
-
 /*
  * Syntax for inheriting class in java
  * 

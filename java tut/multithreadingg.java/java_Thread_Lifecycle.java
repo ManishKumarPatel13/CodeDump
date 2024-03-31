@@ -1,5 +1,3 @@
-package multithreadingg.java;
-
 public class java_Thread_Lifecycle {
 
 }

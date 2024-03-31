@@ -1,4 +1,3 @@
-package firstproject;
 import java.util.*;
 
 class myGeneric<T1>{

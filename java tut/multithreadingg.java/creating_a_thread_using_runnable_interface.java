@@ -3,8 +3,9 @@
 class MyThreadRunnable1 implements Runnable {
     public void run() { // you have to make a run method in class implementing runnable interface
         int i = 0;
-        while (i < 3000) {
+        while (i < 30) {
             System.out.println("I am a thread 1 not a threat");
+            System.out.println("I am tired");
             i++;
         }
     }
@@ -14,8 +15,9 @@ class MyThreadRunnable1 implements Runnable {
 class MyThreadRunnable2 implements Runnable {
     public void run() { // you have to make a run method in class implementing runnable interface
         int i = 0;
-        while (i < 3000) {
+        while (i < 30) {
             System.out.println("I am a thread 2 not a threat");
+            System.out.println("I am energized");
             i++;
         }
     }

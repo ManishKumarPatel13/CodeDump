@@ -10,6 +10,7 @@ public class CalendarClass {
         Calendar sc = Calendar.getInstance(TimeZone.getTimeZone("Asia/Singapore")); // This instance will have the
                                                                                     // timezone of singapore
         System.out.println(sc.getTimeZone());
+        System.out.println(sc.toString());
     }
 }
         

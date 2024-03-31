@@ -1,0 +1,350 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Abstract_class_and_abstract_methods",
+            "request": "launch",
+            "mainClass": "Abstract_class_and_abstract_methods",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "CalendarClass",
+            "request": "launch",
+            "mainClass": "CalendarClass",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "DecrementOperators",
+            "request": "launch",
+            "mainClass": "DatatypeOfExpressionsAndIncrement.DecrementOperators",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "DateClass",
+            "request": "launch",
+            "mainClass": "DateClass",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "Errors_and_Exception",
+            "request": "launch",
+            "mainClass": "Errors_and_Exception",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "Exception_class",
+            "request": "launch",
+            "mainClass": "Exception_class",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "Genericss",
+            "request": "launch",
+            "mainClass": "Genericss",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "Introood",
+            "request": "launch",
+            "mainClass": "Introood",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "PractiseOOps",
+            "request": "launch",
+            "mainClass": "PractiseOOps",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "Practise_Thread",
+            "request": "launch",
+            "mainClass": "Practise_Thread",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "String_methods",
+            "request": "launch",
+            "mainClass": "String_methods",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "Stringss",
+            "request": "launch",
+            "mainClass": "Stringss",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "Thread_methods",
+            "request": "launch",
+            "mainClass": "Thread_methods",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "Thread_priority",
+            "request": "launch",
+            "mainClass": "Thread_priority",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "_2D_Array",
+            "request": "launch",
+            "mainClass": "_2D_Array",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "_3D_array",
+            "request": "launch",
+            "mainClass": "_3D_array",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "annotationss",
+            "request": "launch",
+            "mainClass": "annotationss",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "arrayss",
+            "request": "launch",
+            "mainClass": "arrayss",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "break_continue_statement",
+            "request": "launch",
+            "mainClass": "break_continue_statement",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "ArrayDequee",
+            "request": "launch",
+            "mainClass": "collections.ArrayDequee",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "HashSett",
+            "request": "launch",
+            "mainClass": "collections.HashSett",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListt",
+            "request": "launch",
+            "mainClass": "collections.LinkedListt",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "arraylist",
+            "request": "launch",
+            "mainClass": "collections.arraylist",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "constructors_from_thread_class",
+            "request": "launch",
+            "mainClass": "constructors_from_thread_class",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "creating_a_thread_using_runnable_interface",
+            "request": "launch",
+            "mainClass": "creating_a_thread_using_runnable_interface",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "creating_a_thread_using_thread_class",
+            "request": "launch",
+            "mainClass": "creating_a_thread_using_thread_class",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "default_method_in_interface",
+            "request": "launch",
+            "mainClass": "default_method_in_interface",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "do_while_loop",
+            "request": "launch",
+            "mainClass": "do_while_loop",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "finally_block",
+            "request": "launch",
+            "mainClass": "finally_block",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "for_each_loop",
+            "request": "launch",
+            "mainClass": "for_each_loop",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "for_loop",
+            "request": "launch",
+            "mainClass": "for_loop",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "getting_user_input_4",
+            "request": "launch",
+            "mainClass": "getting_user_input_4",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "if_else_conditionals",
+            "request": "launch",
+            "mainClass": "if_else_conditionals",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "inheritence_in_interface",
+            "request": "launch",
+            "mainClass": "inheritence_in_interface",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "method_aka_function",
+            "request": "launch",
+            "mainClass": "method_aka_function",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "method_overloading",
+            "request": "launch",
+            "mainClass": "method_overloading",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "nested_try_catch",
+            "request": "launch",
+            "mainClass": "nested_try_catch",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "pack",
+            "request": "launch",
+            "mainClass": "pack",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "polymorphism_in_interface",
+            "request": "launch",
+            "mainClass": "polymorphism_in_interface",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "practise",
+            "request": "launch",
+            "mainClass": "practise",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "switch_case",
+            "request": "launch",
+            "mainClass": "switch_case",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "throw_and_throws",
+            "request": "launch",
+            "mainClass": "throw_and_throws",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "try_catch",
+            "request": "launch",
+            "mainClass": "try_catch",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "tut1",
+            "request": "launch",
+            "mainClass": "tut1",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "v_args",
+            "request": "launch",
+            "mainClass": "v_args",
+            "projectName": "java tut_9196566a"
+        },
+        {
+            "type": "java",
+            "name": "while_loop",
+            "request": "launch",
+            "mainClass": "while_loop",
+            "projectName": "java tut_9196566a"
+        }
+    ]
+}

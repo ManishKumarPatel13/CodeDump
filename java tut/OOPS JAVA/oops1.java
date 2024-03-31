@@ -1,5 +1,3 @@
-package OOPS;
-
 class Employee {
     public int id;
     private int salary;
@@ -23,6 +21,5 @@ public class oops1 {
         harry.name = "harry";
         harry.set_Salary(873);
         harry.get_details();
-
     }
 }

@@ -1,5 +1,3 @@
-package OOPS;
-
 public class Access_modifiers {
 
 }
